@@ -1,1 +1,37 @@
+{
 	"name": "君子藏器于身  待时而动",
+	"number_of_posts_per_page": 7,
+	"disqus_shortname": "",
+	"posts": [
+		{
+			"title": "[转]Frontend Knowledge Structure",
+			"date": "2015-06-15",
+			"tags": "前端 知识体系",
+			"path": "frontend-knowledge-structure.html"
+		},{
+			"title": "测试文章",
+			"date": "2015-06-12",
+			"tags": "test",
+			"path": "test.html"
+		}, {
+			"title": "Markdown语法文件",
+			"date": "2015-06-12",
+			"tags": "markdown 语法",
+			"path": "markdown-syntax-zhtw.html",
+			"num": 1,
+			"type": "post",
+			"active": false
+		}
+	],
+	"pages": [
+		{
+			"title": "About us",
+			"date": "2015-06-12",
+			"tags": "",
+			"path": "about-us.html",
+			"num": 0,
+			"type": "page",
+			"active": false
+		}
+	]
+}
