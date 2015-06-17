@@ -108,7 +108,7 @@
     DELETE FROM emp WHERE empno in (177,170);
      */
 
-#### 例4：利用行触发器实现级联更新。在修改了主表regions中的region_id之后（AFTER），级联的、自动的更新子表countries表中原来在该地区的国家的region_id。
+#### 例4：利用行触发器实现级联更新。在修改了主表regions中的region\_id之后（AFTER），级联的、自动的更新子表countries表中原来在该地区的国家的region\_id。
     CREATE OR REPLACE TRIGGER tr_reg_cou
     AFTER update OF region_id
     ON regions
@@ -315,7 +315,7 @@ DELETE FROM emp WHERE empno in (177,170);
  */
 </code></pre>
 
-<h4 id="4regionsregion_idaftercountriesregion_id">例4：利用行触发器实现级联更新。在修改了主表regions中的region<em>id之后（AFTER），级联的、自动的更新子表countries表中原来在该地区的国家的region</em>id。</h4>
+<h4 id="4regionsregion_idaftercountriesregion_id">例4：利用行触发器实现级联更新。在修改了主表regions中的region_id之后（AFTER），级联的、自动的更新子表countries表中原来在该地区的国家的region_id。</h4>
 
 <pre><code>CREATE OR REPLACE TRIGGER tr_reg_cou
 AFTER update OF region_id
