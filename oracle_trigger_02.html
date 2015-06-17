@@ -46,7 +46,7 @@
 
 <h3 id="dml_conceptions">DML触发器一些概念</h3> 
 - **触发事件**：引起触发器被触发的事件，即DML操作（INSERT、UPDATE、DELETE）。既可以是单个触发事件，也可以是多个触发事件的组合（只能使用OR逻辑组合，不能使用AND逻辑组合）。
-- **条件谓词**：当在触发器中包含多个触发事件（INSERT、UPDATE、DELETE）的组合时，为了分别针对不同的事件进行不同的处理，需要使用ORACLE提供的如下条件谓词。对应为INSERTING、UPDATING [（column_1,column_2,…,column_x）]、DELETING
+- **条件谓词**：当在触发器中包含多个触发事件（INSERT、UPDATE、DELETE）的组合时，为了分别针对不同的事件进行不同的处理，需要使用ORACLE提供的如下条件谓词。对应为INSERTING、UPDATING [（column\_1,column\_2,…,column\_x）]、DELETING
 - **触发条件**：由WHEN子句指定一个逻辑表达式，*只允许在行级触发器上指定触发条件，指定UPDATING后面的列的列表。*
 - old和new的使用
     - INSERT:old--null      new--实际值
@@ -247,7 +247,7 @@
 
 <ul>
 <li><strong>触发事件</strong>：引起触发器被触发的事件，即DML操作（INSERT、UPDATE、DELETE）。既可以是单个触发事件，也可以是多个触发事件的组合（只能使用OR逻辑组合，不能使用AND逻辑组合）。</li>
-<li><strong>条件谓词</strong>：当在触发器中包含多个触发事件（INSERT、UPDATE、DELETE）的组合时，为了分别针对不同的事件进行不同的处理，需要使用ORACLE提供的如下条件谓词。对应为INSERTING、UPDATING [（column<em>1,column</em>2,…,column_x）]、DELETING</li>
+<li><strong>条件谓词</strong>：当在触发器中包含多个触发事件（INSERT、UPDATE、DELETE）的组合时，为了分别针对不同的事件进行不同的处理，需要使用ORACLE提供的如下条件谓词。对应为INSERTING、UPDATING [（column_1,column_2,…,column_x）]、DELETING</li>
 <li><strong>触发条件</strong>：由WHEN子句指定一个逻辑表达式，<em>只允许在行级触发器上指定触发条件，指定UPDATING后面的列的列表。</em></li>
 <li>old和new的使用
 <ul><li>INSERT:old--null      new--实际值</li>
